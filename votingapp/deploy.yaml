@@ -140,7 +140,7 @@ spec:
     spec:
       containers:
       - name: result
-        image: sreeharshav/example-voting-app_result:latest
+        image: kiran2361993/testing:latestappresults
         ports:
         - containerPort: 80
           name: result
@@ -182,7 +182,7 @@ spec:
     spec:
       containers:
       - name: vote
-        image: sreeharshav/example-voting-app_vote:latest
+        image: kiran2361993/testing:latestappvote
         ports:
         - containerPort: 80
           name: vote
@@ -217,5 +217,5 @@ spec:
         app: worker
     spec: 
       containers: 
-      - image: sreeharshav/example-voting-app_worker:latest
+      - image: kiran2361993/testing:latestappworker
         name: worker
