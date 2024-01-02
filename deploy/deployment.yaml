@@ -16,5 +16,5 @@ spec:
         run: deploy01
     spec:
       containers:
-      - image: sreeharshav/rollingupdate:v1
+      - image: kiran2361993/rollingupdate:v10
         name: deploy01
